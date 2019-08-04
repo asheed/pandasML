@@ -6,7 +6,7 @@ import pandas as pd
 tup_data = ('영인', '2010-05-01', '여', True)
 sr3 = pd.Series(tup_data, index=['이름', '생년월일', '성별', '학생여부'])
 print(sr3)
-
+print()
 # 원소를 한개 선택
 print(sr3[0])    # sr의 1번째 원소를 선택(정수형 위치 인덱스)
 print(sr3['이름']) # '이름' 라벨을 가진 원소를 선택(인덱스 이름)
